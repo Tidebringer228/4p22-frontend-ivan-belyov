@@ -1,0 +1,122 @@
+body {
+background-color: rgb(235, 232, 232) ;
+font-family: 'Courier New', Courier, monospace;
+margin-left: 20%;
+margin-left: 20%;
+display: block;
+margin: 8px;
+}
+
+.header-row {
+margin-top: 20px;
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+#logo {
+width: 100px;
+}
+
+.btn-header {
+font-size: 20px;
+font-weight: 400;
+text-decoration: none;
+padding-top: 40px;
+}
+
+.btn-header:hover {
+text-decoration: underline 3px solid;
+font-size: 25px;
+font-weight: 500;
+}
+
+.container {
+max-width: 75%;
+margin: auto;
+}
+
+.h2 {
+margin-top: 5%;
+font-size: 30px;
+font-weight: 500;
+text-align: left;
+}
+
+.p {
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+}
+
+.btn {
+background: rgb(1, 150, 250);
+color: #fff;
+text-decoration: none;
+border-radius: 3px;
+text-align: center;
+margin-top: 5%;
+}
+
+.img-product {
+width: 150px;
+height: 150px;
+display: block;
+margin-top: 20px;
+margin-left: 13%;
+border-radius: 20px;
+}
+
+.product {
+width: 200px;
+height: 300px;
+border: 0;
+border-radius: 10px;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+padding: 10px;
+box-shadow: 5px 5px 10px gray;
+}
+
+.product-description {
+margin-top: 20px;
+font-size: 16px;
+font-weight:bold ;
+text-align: center;
+height: 60px;
+}
+
+.price {
+text-align: right;
+color: red;
+}
+
+.menu-container {
+margin-top: 30px;
+display: flex;
+flex-wrap: wrap;
+row-gap: 10px;
+column-gap: 10px;
+justify-content: space-between;
+}
+
+footer {
+margin-top: 10%;
+display: block;
+}
+
+.contacts {
+color: black;
+}
+
+.footer {
+padding-top: 1%;
+padding-left: 1%;
+padding-bottom: 1%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-color: aquamarine;
+border-radius: 20px;
+}
