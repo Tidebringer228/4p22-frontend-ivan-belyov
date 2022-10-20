@@ -11,7 +11,7 @@ background-color: #1A226B;
 .card {
 background-color: #fff;
 width: calc(600 / 1440 * 100vw);
-height: calc(412 / 1440 * 100vw);
+padding-bottom: calc(40 / 1440 * 100vw);
 position: relative;
 top: calc(82 / 1440 * 100vw);
 left: calc(412 / 1440 * 100vw);
