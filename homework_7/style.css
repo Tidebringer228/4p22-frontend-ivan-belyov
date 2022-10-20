@@ -1,0 +1,198 @@
+* {
+box-sizing: border-box;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+background-color: #1A226B;
+}
+
+.card {
+background-color: #fff;
+width: calc(600 / 1440 * 100vw);
+height: calc(412 / 1440 * 100vw);
+position: relative;
+top: calc(82 / 1440 * 100vw);
+left: calc(412 / 1440 * 100vw);
+border-radius: calc(20 / 1440 * 100vw);
+}
+
+.title {
+color: #787878;
+font-weight: bold;
+text-align: center;
+padding-top: calc(26 / 1440 * 100vw);
+font-style: normal;
+}
+
+.box-1 {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.email {
+display: flex;
+font-weight: bold;
+color: #787878;
+justify-content: start;
+margin-left: calc(45 / 1440 * 100vw);
+font-size: calc(16 / 1440 * 100vw);
+}
+
+.input_email {
+color: #787878;
+padding-left: calc(15 / 1440 * 100vw);
+font-size: calc(28 / 1440 * 100vw);
+display: flex;
+width: calc(509 / 1440 * 100vw);
+height: calc(50 / 1440 * 100vw);
+margin-left: calc(45 / 1440 * 100vw);
+margin-right: calc(45 / 1440 * 100vw);
+margin-top: 0;
+margin-bottom: 0;
+border-radius: calc(10 / 1440 * 100vw);
+}
+
+input::-webkit-input-placeholder { 
+color: #ccc;
+font-size: calc(28 / 1440 * 100vw); 
+vertical-align: middle;
+padding-left: calc(15 / 1440 * 100vw);
+}
+
+.box-2 {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.password {
+margin-top: calc(15 / 1440 * 100vw);
+display: flex;
+font-weight: bold;
+color: #787878;
+justify-content: start;
+margin-left: calc(45 / 1440 * 100vw);
+font-size: calc(16 / 1440 * 100vw);
+}
+
+.input_password {
+color: #787878;
+padding-left: calc(15 / 1440 * 100vw);
+font-size: calc(28 / 1440 * 100vw);
+display: flex;
+width: calc(509 / 1440 * 100vw);
+height: calc(50 / 1440 * 100vw);
+margin-left: calc(45 / 1440 * 100vw);
+margin-right: cacl(45 / 1440 * 100vw);
+margin-top: 0;
+margin-bottom: 0;
+border-radius: 10px;
+}
+
+.box-3 {
+display: flex;
+margin-top: calc(18 / 1440 * 100vw);
+}
+
+.checkbox {
+transform: scale(1.7);
+color: #787878;
+margin-left: calc(45 / 1440 * 100vw);
+margin-top: calc(15 / 1440 * 100vw);
+height: calc(24 / 1440 * 100vw);
+}
+
+.checkbox_text {
+color: #787878;
+margin-left: calc(17 / 1440 * 100vw);
+margin-top: calc(12 / 1440 * 100vw);
+}
+
+.btn {
+margin-left: calc(210 / 1440 * 100vw); 
+margin-top: calc(60 / 1440 * 100vw);
+margin-right: calc(210 / 1440 * 100vw);
+border-bottom: calc(24 / 1440 * 100vw);
+background-color: #1A226B;
+color: #fff;
+width: calc(180 / 1440 * 100vw);
+height: calc(52 / 1440 * 100vw);
+border-radius: calc(10 / 1440 * 100vw);
+size: calc(24 / 1440 * 100vw);
+font-size: 1.4vw;
+}
+
+@media screen and (max-width:768px) {
+.card {
+width: calc(728 / 768 * 100vw);
+height: calc(697 / 768 * 100vw);
+top: calc(20 / 768 * 100vw);
+left: calc(20 / 768 * 100vw);
+}
+
+.title {
+position: static;
+width: calc(138 / 768 * 100vw);
+height: calc(50 / 768 * 100vw);
+margin-left: calc(288 / 768 * 100vw);
+margin-top: calc(38 / 768 * 100vw);
+}
+.email{
+margin-left: calc(45 / 768 * 100vw);
+font-size: calc(24 / 768 * 100vw);
+}
+.input_email {
+padding-left: calc(15 / 768 * 100vw);
+font-size: calc(28 / 768 * 100vw);
+width: calc(638 / 768 * 100vw);
+height: calc(49 / 768 * 100vw);
+margin-left: calc(45 / 768 * 100vw);
+border-radius: calc(10 / 768 * 100vw);
+}
+input::-webkit-input-placeholder { 
+font-size: calc(36 / 768 * 100vw); 
+padding-left: calc(15 / 768 * 100vw);
+}
+.password {
+margin-left: calc(45 / 768 * 100vw);
+font-size: calc(24 / 768 * 100vw);
+}
+.input_password {
+padding-left: calc(15 / 768 * 100vw);
+font-size: calc(36 / 768 * 100vw);
+width: calc(638 / 768 * 100vw);
+height: calc(49 / 768 * 100vw);
+margin-left: calc(45 / 768 * 100vw);
+margin-right: calc(45 / 768 * 100vw);
+margin-top: 0;
+margin-bottom: 0;
+border-radius: 10px;
+}
+.box-3 {
+margin-top: calc(18 / 768 * 100vw);
+}
+
+.checkbox {
+transform: scale(1.7);
+margin-left: calc(45 / 768 * 100vw);
+height: calc(32 / 768 * 100vw);
+}
+
+.checkbox_text {
+margin-left: calc(17 / 768 * 100vw);
+margin-top: calc(15 / 768 * 100vw);
+}
+
+.btn {
+margin-left: calc(254 / 768 * 100vw); 
+margin-top: calc(70 / 768 * 100vw);
+width: calc(220 / 768 * 100vw);
+height: calc(80 / 768 * 100vw);
+border-radius: calc(10 / 768 * 100vw);
+font-size: calc(32 / 768 * 100vw);
+}
+
+}
