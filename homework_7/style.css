@@ -11,7 +11,10 @@ background-color: #1A226B;
 .card {
 background-color: #fff;
 width: calc(600 / 1440 * 100vw);
+<<<<<<< HEAD
 /* height: calc(412 / 1440 * 100vw); */
+=======
+>>>>>>> b8af89b8fad4609efadc6ab2a4721e2c0ad0e20f
 padding-bottom: calc(40 / 1440 * 100vw);
 position: relative;
 top: calc(82 / 1440 * 100vw);
