@@ -1,0 +1,79 @@
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+.header_title {
+display: flex;
+justify-content: center;
+height: 70px; 
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 15px;
+}
+
+.main_content {
+position: relative;
+left: 32%;
+top: 150px;
+display: flex;
+flex-direction: column;
+width: 700px;
+height: 700px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input_label_num1 {
+display: flex;
+justify-content: center;
+font-size: 27px;
+}
+
+.input {
+height: 49px;
+border-radius: 0 bord;
+background-color: lightgrey;
+color: black;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.input_label_operator {
+display: flex;
+justify-content: center;
+font-size: 27px;
+}
+
+.input_label_num2 {
+display: flex;
+justify-content: center;
+font-size: 27px;
+}
+
+.btn {
+position: relative;
+left: 35%;
+top: 30px;
+display: flex;
+justify-content: center;
+padding: 13px;
+width: 180px;
+height: 52px;
+background-color: blue;
+color: #FFFFFF;
+border: solid 3px black;
+}
+
+.resultform {
+position: relative;
+left: 12%;
+top: 100px;
+width: 550px;
+height: 150px;
+background-color: lightgrey;
+color: black;
+border: 3px solid black;
+line-height: 36px;
+padding: 5px;
+font-size: 30px;
+}
