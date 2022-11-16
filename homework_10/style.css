@@ -1,0 +1,38 @@
+* {
+box-sizing: border-box;
+margin: 0; 
+}
+
+.header {
+width: 100%;
+height: 80px;
+background-color: lightgrey;
+display: flex;
+justify-content: center;
+padding: 18px;
+}
+
+.content_container {
+position: absolute;
+left: 350px;
+top: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.main_form {
+border: 1px solid black;
+background-color: antiquewhite;
+padding: 0.2rem 0.5rem 0.2rem;
+height: 2.5rem;
+font-size: 1.5rem;
+}
+
+.btn {
+margin-top: 60px;
+width: 200px;
+height: 100px;
+background-color: aqua;
+color: black;
+border-radius: 50px;
+}
