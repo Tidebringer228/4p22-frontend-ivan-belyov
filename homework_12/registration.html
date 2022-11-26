@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_registry.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container_titles">
+        <img src="Logo.jpg" alt="logo" class="Logo_header">
+        <h1 class="header_title">PCS Frontend</h1>
+        </div>
+        <div class="container_buttons">
+        <a class="registry">Регистрация</a>
+        <form action="index.html" target="_blank">
+        <button class="join">Вход</button>
+        </form> 
+        </div>
+    </header>
+    <main>
+        <div class="main_card">
+        <div class="card_header">
+        <h1 class="card_title">Регистрация</h1>
+        </div>
+        <div class="main_input">-
+            <p class="email">Email</p>
+            <label class="error_label" for="email" id="email-attention"></label>
+            <input type="email" placeholder="Введите email" class="input_email" id="email">
+            <p class="password">Пароль</p>
+            <label class="error_label" for="password" id="password-attention"></label>
+            <input type="password" placeholder="Введите пароль" class="input_password" id="password">
+            <p class="confirm_password">Подтверждение пароля</p>
+            <label class="error_label" for="password" id="repeat-attention"></label>
+            <input type="password" placeholder="Подтвердите пароль" class="input_confirm_pasword" id="password_repeat">
+            <p class="gender">Пол</p>
+            <div class="gender_container">
+            <div class="box-1">
+            <input type="radio" class="gender_checkbox">
+            <p class="text_checkbox">Мужчина</p>
+            </div>
+            <div class="box-2">
+            <input type="radio" class="gender_checkbox">
+            <p class="text_checkbox">Женщина</p>
+            </div>
+            </div>
+            <p class="about_self">О себе</p>
+            <textarea class="area_about_self" placeholder="Расскажите о себе..."></textarea>
+            <div class="container_accept">
+            <input type="checkbox" class="accept" id="accept" name="agree">
+            <p class="checkbox_text">Я согласен получать обновления на почту</p>
+            </div>
+            <button class="registry_btn" id="registration_button">Регистрация</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
